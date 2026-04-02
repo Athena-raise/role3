@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>祁煜语音 · 我的小站</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="site-logo" href="index.html">我的小站</a>
+            <nav class="site-nav" aria-label="主导航">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="index.html#self-exploration">自我探索</a></li>
+                    <li><a href="about.html">关于</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main" id="main">
+        <div class="container">
+            <nav aria-label="面包屑">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="nfc-audio.html">NFC 触发音频</a></li>
+                    <li aria-current="page">祁煜语音</li>
+                </ol>
+            </nav>
+
+            <section class="section" aria-labelledby="qiyu-heading">
+                <h1 id="qiyu-heading" class="section__title">祁煜语音</h1>
+                <p class="section__lead">将音频文件放在本站目录 <code>audio/qiyu/</code> 下；若要新增一条音频，只需要在下方对应条目里修改 <code>src</code> 即可。若某条暂无文件，可先保留标题与说明。该页面仅为静态展示，音频文件需手动上传到仓库。</p>
+
+
+                <article class="card audio-item">
+                    <h2 class="card__title">2026拜年语音</h2>
+                    <p class="audio-item__meta">祁煜在2025年除夕夜通过电话向宝宝小姐拜年啦</p>
+                    <audio controls preload="metadata">
+                        <source src="audio/qiyu/voice-01.m4a" type="audio/mp4">
+                        您的浏览器不支持音频播放。
+                    </audio>
+                </article>
+
+                <article class="card audio-item">
+                    <h2 class="card__title">祁煜语音 02</h2>
+                    <p class="audio-item__meta">备注或来源（可删）</p>
+                    <audio controls preload="metadata">
+                        <source src="audio/qiyu/voice-02.m4a" type="audio/mp4">
+                        您的浏览器不支持音频播放。
+                    </audio>
+                </article>
+
+                <article class="card audio-item">
+                    <h2 class="card__title">祁煜语音 03</h2>
+                    <p class="audio-item__meta">备注或来源（可删）</p>
+                    <audio controls preload="metadata">
+                        <source src="audio/qiyu/voice-03.m4a" type="audio/mp4">
+                        您的浏览器不支持音频播放。
+                    </audio>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 我的小站 · 本地静态页，导航与样式可复用到新页面</p>
+        </div>
+    </footer>
+</body>
+</html>
